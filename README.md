@@ -1,89 +1,104 @@
-# 🍽️ Zomato Data-Analysis – Excel & Power BI
+# 🍽️ Zomato Data Analysis – Excel & Power BI
 
-_Leveraged Excel and Power BI to explore and visualize restaurant and delivery data from Zomato — turning raw figures into meaningful business insights._
-
----
-
-## 📌 Table of Contents  
-- [Overview](#overview)  
-- [Business Context](#business-context)  
-- [Data & Tools](#data-tools)  
-- [Methodology](#methodology)  
-- [Key Findings](#key-findings)  
-- [Dashboard Overview](#dashboard-overview)  
-- [Business Recommendations](#business-recommendations)  
-- [Author & Contact](#author-contact)  
+_Leveraged Excel and Power BI to explore and visualize restaurant and delivery data from Zomato — turning raw datasets into meaningful business insights._
 
 ---
 
-## 🧠 Overview  
-This project delves into dataset(s) from Zomato to uncover patterns in restaurant performance, customer behaviour, and delivery trends. Using Excel for data wrangling and Power BI for visualization, the goal was to develop a story around restaurant data that supports strategic decisions in operations, marketing, and location planning.
+## 📌 Table of Contents
+- <a href="#overview">Overview</a>
+- <a href="#business-context">Business Context</a>
+- <a href="#data--tools">Data & Tools</a>
+- <a href="#methodology">Methodology</a>
+- <a href="#key-findings">Key Findings</a>
+- <a href="#dashboard-overview">Dashboard Overview</a>
+- <a href="#business-recommendations">Business Recommendations</a>
+- <a href="#author--contact">Author & Contact</a>
 
 ---
 
-## 💼 Business Context  
-In a competitive food-delivery environment, restaurants and aggregators must understand:  
-- Which locations or cuisines are under-performing?  
-- Are delivery times or costs impacting customer satisfaction?  
-- How do restaurant features (ratings, cost for two, city, etc.) correlate with take-away behaviour?  
-- What actionable opportunities exist in menus, pricing, or geographical expansion?  
+<h2 id="overview">🧠 Overview</h2>
 
-This analysis was built to answer such questions and deliver visual insights that support decision-makers.
+This project analyzes Zomato restaurant and delivery data to uncover patterns in restaurant performance, customer preferences, and delivery efficiency.  
+Using **Excel** for cleaning and aggregation, and **Power BI** for visualization, this analysis helps decision-makers gain actionable insights for marketing, pricing, and location strategy.
 
 ---
 
-## 🧩 Data & Tools  
-- **Data Source:** Raw CSV/Excel files obtained from Zomato (restaurant listings, reviews, delivery metrics)  
-- **Tools:**  
-  - Excel (for cleaning, pivot tables, initial exploration)  
-  - Power BI (for interactive dashboards and slicing dimensions)  
-- **Techniques Included:** Data cleansing, aggregation, trend-analysis, location-based segmentation, KPI design  
+<h2 id="business-context">💼 Business Context</h2>
+
+The online food delivery industry is highly competitive, and understanding customer behavior and operational performance is crucial.  
+This project answers key business questions such as:
+
+- Which cities or cuisines are underperforming?  
+- How do delivery times and costs affect customer satisfaction?  
+- What’s the relationship between pricing, ratings, and order volume?  
+- Which restaurants or cuisines represent untapped potential for marketing or expansion?
 
 ---
 
-## 🛠️ Methodology  
-1. Cleaned data in Excel: removed missing/outlier values, formatted fields, created lookup tables  
-2. Aggregated relevant metrics (e.g., average ratings by city, delivery count by cuisine)  
-3. Imported cleaned data into Power BI to build interactive visualizations:  
-   - Geographic maps (city, region)  
-   - Trend charts (rating over time, cost vs reviews)  
-   - Filters to explore by cuisine, budget, delivery type  
-4. Validated insights and created a dashboard designed for business consumption  
+<h2 id="data--tools">🧩 Data & Tools</h2>
+
+**Data Source:** Zomato dataset (restaurant listings, reviews, cost data, locations)  
+
+**Tools & Technologies Used:**  
+- **Excel:** Data cleaning, aggregation, and pivot tables  
+- **Power BI:** Interactive dashboards and visual storytelling  
+
+**Key Techniques:**  
+- Data wrangling & normalization  
+- Exploratory trend analysis  
+- City-wise & cuisine-wise segmentation  
+- KPI visualization for cost, rating, and volume
 
 ---
 
-## 📊 Key Findings  
-- Identified cities or neighbourhoods where restaurants had **below-average ratings but high costs**, indicating potential repositioning.  
-- Found that certain cuisines (e.g., casual vs premium) showed distinct delivery volumes and review patterns — signalling marketing or menu-strategy opportunities.  
-- Observed correlation between “cost for two” and review count varied significantly by city — suggesting value perception differs across regions.  
-- Highlighted clusters of restaurants with strong ratings but low take-away counts — possible growth areas with minimal marketing.  
+<h2 id="methodology">🛠️ Methodology</h2>
+
+1. **Data Cleaning (Excel):** Removed missing/outlier values, formatted columns, merged lookup tables.  
+2. **Data Aggregation:** Grouped data by city, cuisine, and rating categories to find trends.  
+3. **Data Visualization (Power BI):** Created interactive reports showing:  
+   - Geographic insights by city  
+   - Top cuisines and cost analysis  
+   - Correlation between ratings, cost, and order count  
+4. **Storytelling:** Designed an executive-friendly dashboard summarizing the business insights.
 
 ---
 
-## 🖥️ Dashboard Overview  
-A user-friendly dashboard was created in Power BI to visualize these insights:  
-- Map view of restaurant performance across cities  
-- Filters to isolate by cuisine, cost-bucket, rating range  
-- Trend and bar charts for key performance metrics  
-- Summary-tiles for quick business-reporting  
+<h2 id="key-findings">📊 Key Findings</h2>
 
-*(Insert dashboard screenshot here for presentation)*  
+- **High-cost, low-rated zones:** Cities where restaurants have high pricing but poor reviews — potential areas for repositioning.  
+- **Cuisines with strong demand:** Fast food and North Indian cuisines dominate high-volume deliveries.  
+- **City segmentation:** Tier-1 cities drive higher average costs per order, Tier-2 cities lead in review volume.  
+- **Hidden growth clusters:** Several restaurants with high ratings but low order volumes — ideal for promotion campaigns.  
 
 ---
 
-## 🎯 Business Recommendations  
-Based on the analysis:  
-- **Focus growth** on identified high-rating but low-volume clusters — these represent untapped potential.  
-- **Reassess pricing or promotion** in cities where cost for two is high but reviews/volume low.  
-- **Use cuisine segmentation** to tailor marketing (e.g., target cuisines with high delivery volumes but lower ratings).  
-- **Leverage dashboard** for monitoring monthly performance and guiding decisions on expansion, marketing spend, or menu changes.  
+<h2 id="dashboard-overview">🖥️ Dashboard Overview</h2>
+
+An **interactive Power BI dashboard** was developed to visualize:  
+- City-wise and cuisine-wise restaurant performance  
+- Cost vs Rating correlation  
+- Review density and delivery trends  
+- KPIs on average rating, order volume, and pricing  
+
+<!-- (Optional) Add your dashboard preview image below -->
+<!-- ![Power BI Dashboard](images/dashboard_preview.png) -->
 
 ---
 
-## 👤 Author & Contact  
+<h2 id="business-recommendations">🎯 Business Recommendations</h2>
+
+- **Focus marketing** on high-rated, low-volume restaurants to boost visibility.  
+- **Reevaluate pricing strategies** in cities where costs are high but reviews are poor.  
+- **Invest in cuisines** with strong review-to-order ratios (positive brand impact).  
+- **Use dashboard insights** to continuously track restaurant performance and delivery outcomes.
+
+---
+
+<h2 id="author--contact">👤 Author & Contact</h2>
+
 **Jivesh Kumar**  
 _Data Analyst | Insight-Driven Decision Maker_  
-📧 Email: [jiveshh.mishra@gmail.com](mailto:jiveshh.mishra@gmail.com)  
-🔗 LinkedIn: [linkedin.com/in/jiveshh](https://www.linkedin.com/in/jiveshh)  
+📧 **Email:** [jiveshh.mishra@gmail.com](mailto:jiveshh.mishra@gmail.com)  
+🔗 **LinkedIn:** [linkedin.com/in/jiveshh](https://www.linkedin.com/in/jiveshh)  
 
-⭐ If you found this project valuable, feel free to star the repository!
+---
