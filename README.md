@@ -97,7 +97,7 @@ An **interactive Power BI dashboard** was developed to visualize:
 <h2 id="author--contact">👤 Author & Contact</h2>
 
 **Jivesh Kumar**  
-_Data Analyst | Insight-Driven Decision Maker_  
+_Data Analyst   
 📧 **Email:** [jiveshh.mishra@gmail.com](mailto:jiveshh.mishra@gmail.com)  
 🔗 **LinkedIn:** [linkedin.com/in/jiveshh](https://www.linkedin.com/in/jiveshh)  
 
